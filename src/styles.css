@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    color:black;
+
+}
+
+.bg{
+    background-color: #316B83;
+  /*  background-image: linear-gradient(to right top, #171c57, #2b3471, #3f4d8c, #5367a7, #6882c2, #6088c1, #5a8dbf, #5992bc, #46809a, #3d6c79, #3a585b, #364443); */
+    width: 100%;
+    height: 100vh;
+}
+
+.form-container{
+    background-color:#fff;
+    border:1px solid white;
+    padding: 50px 60px;
+    margin-top: 30%;
+    border-radius: 10px;
+    box-shadow: 2px 12px 13px -10px #ffff;
+}
+
+h2{
+    color:#105652 ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.flex-container{
+    position: absolute;
+    background-color: #105652;
+    text-align: center;
+    text-transform: uppercase;
+    width: 450px;
+    left: -6px;
+
+
+}
+
+
+#triangle-topleft { 
+    position: absolute;
+    top: 446px;
+    left: 413px;
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid #105652; 
+    border-right: 32px solid transparent; 
+ }
+ #triangle-topright { 
+     position: absolute;
+     top: 446px;
+     left: -6px;
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid #105652; 
+    border-left: 21px solid transparent; 
+ }
+
+ 
+
+.bottom{
+    padding-top: 50px;
+    text-align: center;
+}
