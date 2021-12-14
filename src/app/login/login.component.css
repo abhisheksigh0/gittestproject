@@ -1,4 +1,7 @@
-.btn{color:#fff;}
+.btn{
+    color:#fff;
+   text-transform: uppercase;
+}
 .btn:hover {
     color: #fff;
     background: #316b83;
